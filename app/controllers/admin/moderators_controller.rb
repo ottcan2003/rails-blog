@@ -8,7 +8,6 @@ class Admin::ModeratorsController < Admin::ApplicationController
 	end
 
 	def update
-		byebug
 		@moderator = Moderator.find(params[:id])
 #		@moderator.update(params)	# this works but 'Strong Parameters' is better
 		if @moderator.update(moderator_params)
