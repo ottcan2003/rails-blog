@@ -22,4 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
-# next step => 2. Sessions
+
+# Dec 31 2016: this version is for push to Heroku too: next step => 2. Sessions
